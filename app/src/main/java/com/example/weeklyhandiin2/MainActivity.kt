@@ -38,4 +38,21 @@ fun main() {
 
     val blackTshirt = Tshirt("Polo T-Shirt", 50.00, 25)
     blackTshirt.identifyProductCategory()
+
+    // Opgave 4
+
+    /*
+        Koden ligger i JuniorAndSeniorDevs.kt.
+
+    1.  Senior udvikleren bruger en valideringsfunktion i init kodeblokken, der sikrer at værdierne er positive, mens junior udvikleren ikke gør.
+        Dette kan føre til bugs hvis værdierne er negative.
+
+    2.  Senior udvikleren gør brug af en abstract klasse med dertilhørende abstract funktion, som vi ikke har lært om endnu.
+        Ifølge nogle youtube videoer, betyder det at klassen ikke kan blive initialized i main() funktionen, men klassens formål er udelukkende at være en super klasse, for andre underklasser.
+
+    3.  Senior udvikleren gør også brug af en protected funktion, som betyder at den funktion kun kan bruges i super klassen og alle underklasser.
+        Man kan ikke tilgå den funktion i main() funktionen.
+
+     */
+
 }
